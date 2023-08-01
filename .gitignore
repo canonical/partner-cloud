@@ -1,0 +1,10 @@
+temporal
+.git
+.tox
+.venv
+.idea
+*.pyc
+**/__pycache__/*
+.coverage
+lp.creds
+partner-cloud.conf

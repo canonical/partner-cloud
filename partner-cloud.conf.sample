@@ -1,0 +1,27 @@
+[DEFAULT]
+clouds = Cloud 1, cloud 2
+
+[jira]
+server = "<jira server here>>"
+email = "<your email here>"
+api_token = "<magic-api-token-here>"
+
+[launchpad]
+credentials_file = /path/to/launchpad/credentials.file
+
+[ldap]
+server = ldap.server.example.com
+bind_dn = "cn=Susana Valenzuela,ou=staff,dc=company,dc=com"
+password = "<password>"
+
+[Cloud 1]
+name = "Cloud 1"
+infra_group = "vpn-group1-infra"
+user_group = "vpn-group1-users"
+infra_node = 192.168.10.1
+
+[Cloud 2]
+name = "Cloud 2"
+infra_group = "vpn-group2-infra"
+user_group = "vpn-group2-users"
+infra_node = 192.168.20.1
